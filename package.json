@@ -1,10 +1,10 @@
 {
   "name": "vuejs-poster-shop",
   "version": "1.1.0",
-  "description": "Ultimate Vue.js Developers Course - Vue.js Poster Shop",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js --ignore node_modules/ -e js,html,css"
+    "start": "nodemon ./script.js --ignore node_modules/ -e js,html,css"
   },
   "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
   "repository": {
@@ -25,6 +25,7 @@
   "dependencies": {
     "axios": "~0.15.2",
     "body-parser": "~1.18.2",
+    "build": "^0.1.4",
     "dotenv": "~2.0.0",
     "express": "^4.14.0",
     "querystring": "~0.2.0",
